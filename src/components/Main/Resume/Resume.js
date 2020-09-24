@@ -4,9 +4,6 @@ import { Skill } from "./Skill";
 import { Experience } from "./Experience";
 import { skills as skillData } from "../../../assets/data/skills";
 import { experience as experienceData } from "../../../assets/data/experience";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
-import { faCog } from "@fortawesome/free-solid-svg-icons";
-import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 export const Resume = () => {
   return (

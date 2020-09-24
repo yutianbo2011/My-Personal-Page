@@ -21,7 +21,7 @@ export const ProjectDetail = props => {
             <p key={line}>{line}</p>
           ))}
         </article>
-        <p><a href={url} target="_blank" > Go to this project! </a> </p>
+        <p><a href={url} target="_blank" rel="noopener noreferrer"> Go to this project! </a> </p>
       </section>
     </section>
   );
