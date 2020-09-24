@@ -1,17 +1,6 @@
 export const skills = {
-  Coding: [
-    "Javascript",
-    "jQuery",
-    "React.js",
-    "HTML",
-    "Bootstrap",
-    "CSS",
-    "SASS",
-    "Java",
-    "Android",
-    "Unity",
-    "Git"
-  ],
-  "Soft Skills": ["Research", "Teamwork", "Communication", "Time Management"],
-  Language: ["Vietnamese", "English"]
+  "Programming Language": ['JavaScript', 'HTML', 'CSS', 'C++', 'Python', 'Ruby', 'MATLAB'],
+  "Framewrok & Libraries": ['React', 'Angular', 'Redux', 'Express', 'Bootstrap', 'Cocos2', 'TensorFlow', 'Keras', 'Pgmpy'],
+  "Platform & Tools ": ['Node.js', 'MongleDB', 'Agile', 'Git', 'AWS', 'Linux'],
+  "Language": ["English", "Mandarin"]
 };

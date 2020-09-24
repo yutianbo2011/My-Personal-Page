@@ -7,7 +7,7 @@
 }
 
 .footer .container {
-  width: 65%;
+  width: 80%;
   margin: 0 auto;
   display: grid;
   grid-template: 1fr / repeat(4, 1fr);
@@ -16,7 +16,8 @@
 .footer .container .item {
   display: grid;
   grid-template: auto auto / 0.5fr 1.5fr;
-  padding: 1.5rem 0;
+  padding: 1.5rem 3rem;
+  /* width: 20%; */
 }
 
 .footer .container .item p:first-of-type {

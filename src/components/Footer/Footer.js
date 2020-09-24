@@ -6,15 +6,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
-import { faCopyright } from "@fortawesome/free-solid-svg-icons";
-import { faSkype } from "@fortawesome/free-brands-svg-icons";
+// import { faCopyright, faSkype, faCodepen } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faCodepen } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { contact as contactData } from "../../assets/data/contact";
 
 export const Footer = () => {
-  const { linkedin, skype, codepen, github, phone, email } = contactData;
+  const { linkedin, github, phone, email } = contactData;
 
   return (
     <footer className={styles.footer}>
@@ -38,19 +36,19 @@ export const Footer = () => {
               icon={faLinkedin}
               style={styleIcon.small}
             />
-            <LinkIcon href={skype} icon={faSkype} style={styleIcon.small} />
-            <LinkIcon href={codepen} icon={faCodepen} style={styleIcon.small} />
+            {/* <LinkIcon href={skype} icon={faSkype} style={styleIcon.small} /> */}
+            {/* <LinkIcon href={codepen} icon={faCodepen} style={styleIcon.small} /> */}
             <LinkIcon href={github} icon={faGithub} style={styleIcon.small} />
           </p>
         </section>
-        <section
+        {/* <section
           className={styles.item}
           title="I only adapted the layout. Didn't copy the original code FYI ;)"
         >
           <FontAwesomeIcon icon={faCopyright} className={styles.icon} />
           <p>Theme by Nicola Rider</p>
           <p>Recreated by Me</p>
-        </section>
+        </section> */}
       </section>
     </footer>
   );

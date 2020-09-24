@@ -42,17 +42,8 @@ export const Resume = () => {
           </article>
         </section>
         <section className={styles.skill}>
-          <Skill icon={faCode} type="Coding" skillData={skillData["Coding"]} />
-          <Skill
-            icon={faCog}
-            type="Soft Skills"
-            skillData={skillData["Soft Skills"]}
-          />
-          <Skill
-            icon={faGlobe}
-            type="Language"
-            skillData={skillData["Language"]}
-          />
+          <Skill skillData= {skillData}></Skill>
+          
         </section>
       </section>
     </section>
