@@ -5,6 +5,7 @@
     "avatar hello"
     "avatar button_group"
     "avatar intro";
+  padding-bottom: 7rem;
 }
 
 .home .hello {
@@ -62,6 +63,7 @@
 
   .home > * {
     padding-top: 1rem;
+    padding-bottom: 2rem;
   }
 
   .home .avatar {

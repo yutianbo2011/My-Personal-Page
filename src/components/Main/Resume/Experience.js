@@ -5,7 +5,10 @@ export const Experience = props => {
   return (
     <section className={styles.detail}>
       <p>
-        {props.job} - {props.company}
+        {props.company}
+      </p>
+      <p>
+        {props.job}  
       </p>
       <p>{props.time}</p>
       <p>​{props.description}</p>
