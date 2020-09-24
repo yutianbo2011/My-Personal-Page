@@ -10,7 +10,7 @@ export const Skill = props => {
       <ul>
         {Object.keys(props.skillData).map(((category, categoryIndex) =>{
           return (
-            <div>
+            <div key={category+ categoryIndex}>
               <h2>
                 <FontAwesomeIcon icon={iconList[categoryIndex]} className={styles.icon} />
                 {category}

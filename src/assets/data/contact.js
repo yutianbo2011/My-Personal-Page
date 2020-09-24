@@ -3,7 +3,7 @@ export const contact = {
   name: "Tianbo (Timothy) Yu",
   job: "Hire me!",
   avatar: {
-    src: "https://raw.githubusercontent.com/yutianbo2011/My-Profile-Page/master/src/assets/data/figure/my_photo.jpg",
+    src: "https://raw.githubusercontent.com/yutianbo2011/My-Profile-Page/master/src/assets/figure/my_photo.jpg",
     alt: "Hire me!"
   },
   phone: "+1 9794500916",

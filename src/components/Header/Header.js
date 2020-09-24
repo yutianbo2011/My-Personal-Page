@@ -69,13 +69,13 @@ export class Header extends React.Component {
               onClick={this.handleClick}
               currentPage={this.state.currentPage}
             />
-            <NavItem
+            {/* <NavItem
               id="nav_contact"
               target="/contact"
               value="contact"
               onClick={this.handleClick}
               currentPage={this.state.currentPage}
-            />
+            /> */}
           </ul>
         </nav>
       </header>

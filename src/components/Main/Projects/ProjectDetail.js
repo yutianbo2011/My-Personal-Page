@@ -1,8 +1,10 @@
 import React from "react";
 import styles from "./ProjectDetail.module.css";
 
+
 export const ProjectDetail = props => {
-  const { name, thumbnail, description } = props.project;
+  const { name, position, thumbnail, description, url} = props.project;
+  console.log(url);
   const projectNo = props.no.toString().padStart(2, "0");
 
   return (
@@ -12,12 +14,14 @@ export const ProjectDetail = props => {
       </div>
       <section className={styles.detail}>
         <p className={styles.projectNo}>Project | {projectNo}</p>
-        <p className={styles.projectName}>{name}</p>
-        <p className={styles.projectDes}>
+        <p className={styles.projectName}>{name }  </p>
+        <p className={styles.projectSubtitle}>{position}</p>
+        <article className={styles.projectDes}>
           {description.map(line => (
-            <p>{line}</p>
+            <p key={line}>{line}</p>
           ))}
-        </p>
+        </article>
+        <p><a href={url} target="_blank" > Go to this project! </a> </p>
       </section>
     </section>
   );
